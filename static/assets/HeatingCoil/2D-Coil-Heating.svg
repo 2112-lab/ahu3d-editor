@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="390.72183pt"
+   height="1000pt"
+   viewBox="0 0 390.72183 1000"
+   overflow="visible"
+   id="svg6"
+   sodipodi:docname="2D-Coil-Heating.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:export-filename="2D-Coil-Heating.svg"
+   inkscape:export-xdpi="72.000008"
+   inkscape:export-ydpi="72.000008"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.27769886"
+     inkscape:cx="-144.04092"
+     inkscape:cy="491.53965"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M 52.571627,997.93824 V 2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path1"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-filename="2D-Coil-Heating.svg"
+     inkscape:export-xdpi="72.000008"
+     inkscape:export-ydpi="72.000008" />
+  <path
+     d="M 338.15022,997.93824 V 2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path2"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 7.4796004,997.93824 V 2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path3"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 383.24225,997.93824 V 2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path4"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 194.14473,848.98746 q -5.80138,0 -10.30041,2.36791 -4.49903,2.36791 -7.51811,6.74854 -3.01909,4.38064 -4.61743,10.5372 -1.53914,6.15657 -1.53914,13.67468 0,7.51812 1.65754,13.79308 1.71673,6.21576 4.79501,10.71479 3.13749,4.49903 7.69571,6.98534 4.55823,2.4863 10.24121,2.4863 3.96625,0 7.22213,-1.24315 3.25588,-1.30235 5.91978,-3.61106 2.66389,-2.30871 4.73582,-5.4462 2.07192,-3.19667 3.67026,-7.04453 l 7.57731,4.61743 q -1.83513,4.67662 -4.55823,8.70207 -2.72309,4.02544 -6.39336,6.98533 -3.67026,2.95989 -8.28768,4.67662 -4.61743,1.65754 -10.35961,1.65754 -8.28768,0 -14.56265,-3.19668 -6.21576,-3.25587 -10.4188,-8.99806 -4.14384,-5.80138 -6.27496,-13.73388 -2.07192,-7.93249 -2.07192,-17.34494 0,-9.76763 2.19031,-17.64093 2.24952,-7.8733 6.45256,-13.37869 4.26224,-5.56459 10.478,-8.52448 6.21577,-3.01908 14.14826,-3.01908 10.89239,0 18.23291,5.2094 7.34052,5.2094 10.77399,15.45061 l -8.76126,3.55187 q -0.94717,-2.95989 -2.60471,-5.62379 -1.65753,-2.72309 -4.14384,-4.79502 -2.4863,-2.07192 -5.80138,-3.31507 -3.31507,-1.24315 -7.57731,-1.24315 z"
+     id="text4"
+     style="font-size:121.237px;font-family:'Arial Narrow';stroke:#000000;stroke-width:14.9592"
+     aria-label="C" />
+  <path
+     d="m 213.47253,140.94896 v -38.65613 h -36.9986 v 38.65613 h -9.23484 V 57.539324 h 9.23484 v 35.281862 h 36.9986 V 57.539324 h 9.23485 v 83.409636 z"
+     id="text5"
+     style="font-size:121.237px;font-family:'Arial Narrow';text-anchor:middle;stroke:#000000;stroke-width:14.9592"
+     aria-label="H" />
+  <path
+     d="M 338.15022,997.93824 52.571627,2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path5"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 52.571627,997.93824 338.15022,2.0617618"
+     stroke="#000000"
+     stroke-width="5.0961"
+     fill="none"
+     id="path6"
+     style="stroke:#000000;stroke-width:14.9592;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

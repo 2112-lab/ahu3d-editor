@@ -1,0 +1,104 @@
+[
+  {
+    "id": "r:novo.graphics::Ahu-0",
+    "spec": "r:novo.graphics::AhuGroup",
+    "graphicLocation": {
+      "start": "A1",
+      "end": "B2"
+    },
+    "ducts": [
+      "r:novo.graphics::Duct-0",
+      "r:novo.graphics::Duct-1"
+    ],
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "joints": {
+        "style": "arc",
+        "direction": "inwards",
+        "context": "adjacent",
+        "yStyle": "orthogonal",
+        "yDirection": "inwards",
+        "padding": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Duct-0",
+    "spec": "r:novo.graphics::DuctEdge",
+    "graphicLocation": {
+      "start": "B1",
+      "end": "B2",
+      "size": "medium"
+    },
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    },
+    "components": [
+      "r:novo.graphics::Fan-0",
+      "r:novo.graphics::FanHorizontal-0"
+    ]
+  },
+  {
+    "id": "r:novo.graphics::Duct-1",
+    "spec": "r:novo.graphics::DuctEdge",
+    "graphicLocation": {
+      "start": "B2",
+      "end": "A2",
+      "size": "small"
+    },
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    },
+    "components": [
+      "r:novo.graphics::HeatingCoil-0"
+    ]
+  },
+  {
+    "id": "r:novo.graphics::HeatingCoil-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::HeatingCoil",
+    "blockStyle": {
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::FanHorizontal-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::FanHorizontal",
+    "blockStyle": {
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Fan-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Fan",
+    "blockStyle": {
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  }
+]

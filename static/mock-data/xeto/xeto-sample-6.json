@@ -1,0 +1,496 @@
+[
+  {
+    "graphicLocation": {
+      "start": "C3",
+      "end": "D4"
+    },
+    "ducts": [
+      "r:novo.graphics::Edge-1",
+      "r:novo.graphics::Edge-2",
+      "r:novo.graphics::Edge-3",
+      "r:novo.graphics::Edge-4",
+      "r:novo.graphics::Edge-5",
+      "r:novo.graphics::Edge-6"
+    ],
+    "id": "r:novo.graphics::AHU-1",
+    "spec": "r:novo.graphics::AhuGroup",
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "joints": {
+        "style": "diagonal",
+        "direction": "outwards",
+        "context": "adjacent",
+        "yStyle": "orthogonal",
+        "yDirection": "outwards",
+        "padding": 250
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C3",
+      "end": "C4",
+      "size": "medium"
+    },
+    "components": [
+      "r:novo.graphics::CoolingCoil-2",
+      "r:novo.graphics::Damper-2",
+      "r:novo.graphics::AirFilter-4"
+    ],
+    "id": "r:novo.graphics::Edge-1",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "insert",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#FF0000"
+          },
+          "padding": 232
+        },
+        "text": {
+          "display": false,
+          "value": "Return Air",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C3",
+      "end": "B3",
+      "size": "small"
+    },
+    "components": [
+      "r:novo.graphics::AirFilter-3",
+      "r:novo.graphics::CoolingCoil-1",
+      "r:novo.graphics::Damper-1"
+    ],
+    "id": "r:novo.graphics::Edge-2",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#FF0000"
+          },
+          "padding": 16
+        },
+        "text": {
+          "display": false,
+          "value": "Return Air",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C3",
+      "end": "D3",
+      "size": "medium"
+    },
+    "components": [
+      "r:novo.graphics::FanHorizontal-0",
+      "r:novo.graphics::FanPropeller-1",
+      "r:novo.graphics::HeatingCoil-1",
+      "r:novo.graphics::Fan-1"
+    ],
+    "id": "r:novo.graphics::Edge-3",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "cap",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#FF0000"
+          },
+          "padding": 146
+        },
+        "text": {
+          "display": false,
+          "value": "",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C3",
+      "end": "C2",
+      "size": "small"
+    },
+    "components": [
+      "r:novo.graphics::AirFilter-2",
+      "r:novo.graphics::HeatingCoil-0",
+      "r:novo.graphics::FanPropeller-0",
+      "r:novo.graphics::CoolingCoil-0"
+    ],
+    "id": "r:novo.graphics::Edge-4",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "endToStart",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#00FF00"
+          },
+          "padding": 134
+        },
+        "text": {
+          "display": false,
+          "value": "Supply Air",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C4",
+      "end": "C5",
+      "size": "medium"
+    },
+    "components": [
+      "r:novo.graphics::Fan-0",
+      "r:novo.graphics::AirFilter-1"
+    ],
+    "id": "r:novo.graphics::Edge-5",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "insert",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#FF0000"
+          },
+          "padding": 124
+        },
+        "text": {
+          "display": false,
+          "value": "Return Air",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "graphicLocation": {
+      "start": "C4",
+      "end": "D4",
+      "size": "large"
+    },
+    "components": [
+      "r:novo.graphics::AirFilter-0",
+      "r:novo.graphics::Damper-0"
+    ],
+    "id": "r:novo.graphics::Edge-6",
+    "spec": "r:novo.graphics::DuctEdge",
+    "blockStyle": {
+      "ductEnds": "none",
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      },
+      "helpers": {
+        "arrow": {
+          "display": false,
+          "material": {
+            "opacity": 0.5,
+            "color": "#FF0000"
+          },
+          "padding": 14
+        },
+        "text": {
+          "display": false,
+          "value": "Return Air",
+          "material": {
+            "opacity": 1,
+            "color": "#FFFFFF"
+          },
+          "padding": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Damper-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Damper",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::AirFilter-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::AirFilter",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::AirFilter-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::AirFilter",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Fan-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Fan",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::CoolingCoil-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::CoolingCoil",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::FanPropeller-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::FanPropeller",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::HeatingCoil-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::HeatingCoil",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::AirFilter-2",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::AirFilter",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Fan-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Fan",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::HeatingCoil-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::HeatingCoil",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::FanPropeller-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::FanPropeller",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::FanHorizontal-0",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::FanHorizontal",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Damper-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Damper",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::CoolingCoil-1",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::CoolingCoil",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::AirFilter-3",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::AirFilter",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::AirFilter-4",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::AirFilter",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::Damper-2",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::Damper",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  },
+  {
+    "id": "r:novo.graphics::CoolingCoil-2",
+    "spec": "r:novo.graphics::Component",
+    "componentId": "r:novo.graphics::CoolingCoil",
+    "blockStyle": {
+      "flowDirection": "startToEnd",
+      "componentPadding": {
+        "startSpace": 250,
+        "endSpace": 250
+      }
+    }
+  }
+]

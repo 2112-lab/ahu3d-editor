@@ -1,0 +1,43 @@
+{
+    "componentId": "r:novo.graphics::DwyerOutside",
+    "componentName": "Dwyer Outside",
+
+    "files": {
+		"thumbnail": "DwyerOutside.png",
+        "model": "DwyerOutside.glb"
+	},
+
+    "metadata": {
+        "description": "Large air vent",
+        "capacity": "500cfm",
+        "size": "257x64x225",
+        "material": "Galvanized Steel"
+    },
+    
+    "attributes": {
+        "setInput": {
+            "key": "sensor-reading",
+            "value": 4
+        }
+    },
+    
+    "object": {
+        "position": { "x": 0, "y": 0, "z": 530 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x": 1, "y": 1, "z": 1 },
+        "boundingBox": {
+            "dimensions": {
+                "x": 108,
+                "y": 41.8,
+                "z": 163
+            },
+            "origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    },
+    "componentPosition": "ceiling",
+    "componentFacing": "inwards"
+}

@@ -1,0 +1,34 @@
+{
+    "controllerId": "r:novo.graphics::GenericController",
+    "controllerName": "Generic Controller",  
+    
+    "metadata": {
+        "description": "Generic Controller for AHU",
+        "category": "Controller",
+        "style": "Generic"
+    },
+
+    "attributes": {
+        "inputs": {
+            "input1": { "type": "digital" },
+            "input2": { "type": "digital" },
+            "input3": { "type": "digital" },
+            "input4": { "type": "digital" }
+        },
+        "outputs": {
+            "output1": { "type": "digital" },
+            "output2": { "type": "digital" },
+            "output3": { "type": "digital" },
+            "output4": { "type": "digital" }
+        },
+        "actions": {}
+    },
+
+    "portSpacing": 150,
+
+    "dimensions": {
+        "x": 500,
+        "y": 100,
+        "z": 200
+    }
+}

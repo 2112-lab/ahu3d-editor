@@ -1,0 +1,43 @@
+{
+    "componentId": "r:novo.graphics::SmokeDetector",
+    "componentName": "Smoke Detector",
+
+    "files": {
+		"thumbnail": "SmokeDetector.png",
+        "model": "SmokeDetector.glb",
+        "svg": "2D-Smoke-Sensor.svg"
+	},    
+    
+    "metadata": {
+        "description": "Large Fan",
+        "category": "Air Distribution",
+        "style": "Large"
+    },
+
+    "attributes": {
+        "setInput": {
+            "key": "sensor-reading",
+            "value": 2
+        }
+    },
+
+    "object": {
+        "position": { "x": 0, "y": 0, "z": 500.000 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x": 1, "y": 1, "z": 1 },
+        "boundingBox": {
+            "dimensions": {
+                "x": 200,
+                "y": 40,
+                "z": 335
+            },
+            "origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    },
+    "componentPosition": "ceiling",
+    "componentFacing": "inwards"
+}
